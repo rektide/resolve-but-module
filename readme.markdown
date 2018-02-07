@@ -1,4 +1,4 @@
-# resolve-module
+# resolve-but-module
 
 > fork of browserify/node-resolve that prefers modules
 
