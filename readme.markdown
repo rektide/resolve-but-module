@@ -1,11 +1,11 @@
-# resolve
+# resolve-module
+
+> fork of browserify/node-resolve that prefers modules
 
 implements the [node `require.resolve()`
 algorithm](https://nodejs.org/api/modules.html#modules_all_together)
 such that you can `require.resolve()` on behalf of a file asynchronously and
-synchronously
-
-[![build status](https://secure.travis-ci.org/browserify/node-resolve.png)](http://travis-ci.org/browserify/node-resolve)
+synchronously. This fork prefers `module` to `main` in `package.json`.
 
 # example
 
